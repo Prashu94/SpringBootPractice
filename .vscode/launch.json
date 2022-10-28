@@ -1,0 +1,304 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JpaCrudApplication",
+            "request": "launch",
+            "mainClass": "com.prospring5.JpaCrudApplication",
+            "projectName": "jpa-crud"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "com.prospring5.Client",
+            "projectName": "auto-scanning"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnnotatedBeanNaming",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.annotated.AnnotatedBeanNaming",
+            "projectName": "bean-aliases"
+        },
+        {
+            "type": "java",
+            "name": "Launch AliasConfigDemo",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.config.AliasConfigDemo",
+            "projectName": "bean-aliases"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeanCrazyNaming",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.xml.BeanCrazyNaming",
+            "projectName": "bean-aliases"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeanNameAliasing",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.xml.BeanNameAliasing",
+            "projectName": "bean-aliases"
+        },
+        {
+            "type": "java",
+            "name": "Launch Singer",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch4.Singer",
+            "projectName": "bean-init-method"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingerConfigDemo",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch4.config.SingerConfigDemo",
+            "projectName": "bean-init-method"
+        },
+        {
+            "type": "java",
+            "name": "Launch CDLDemo",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.CDLDemo",
+            "projectName": "cdl"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollectionInjection",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.annotated.CollectionInjection",
+            "projectName": "collections"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollectionInjection(1)",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.xml.CollectionInjection",
+            "projectName": "collections"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeclareSpringComponents",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.DeclareSpringComponents",
+            "projectName": "constructor-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorConfusion",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.annotated.ConstructorConfusion",
+            "projectName": "constructor-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorConfusion(1)",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.xml.ConstructorConfusion",
+            "projectName": "constructor-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch CustomerJdbcDemo",
+            "request": "launch",
+            "mainClass": "com.prospring5.CustomerJdbcDemo",
+            "projectName": "customer-jdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch DependencyPull",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.DependencyPull",
+            "projectName": "dependency-pull"
+        },
+        {
+            "type": "java",
+            "name": "Launch FieldInjection",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.annotated.FieldInjection",
+            "projectName": "field-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch2.HelloWorld",
+            "projectName": "hello-world"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldSpringDI",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch2.HelloWorldSpringDI",
+            "projectName": "hello-world"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldSpringAnnotated",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch2.annotated.HelloWorldSpringAnnotated",
+            "projectName": "hello-world"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldDecoupled",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch2.decoupled.HelloWorldDecoupled",
+            "projectName": "hello-world"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldDecoupledWithFactory",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch2.decoupled.HelloWorldDecoupledWithFactory",
+            "projectName": "hello-world"
+        },
+        {
+            "type": "java",
+            "name": "Launch InjectRef",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.InjectRef",
+            "projectName": "injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch LookupDemo",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.LookupDemo",
+            "projectName": "method-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch LookupAnnotatedDemo",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.annotated.LookupAnnotatedDemo",
+            "projectName": "method-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodReplacementDemo",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.MethodReplacementDemo",
+            "projectName": "method-replacement"
+        },
+        {
+            "type": "java",
+            "name": "Launch HierarchicalAppContextUsage",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.HierarchicalAppContextUsage",
+            "projectName": "nesting"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlainJdbcDemo",
+            "request": "launch",
+            "mainClass": "com.prospring5.PlainJdbcDemo",
+            "projectName": "plain-jdbc-1"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingerWithJSR250",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch4.SingerWithJSR250",
+            "projectName": "post-construct"
+        },
+        {
+            "type": "java",
+            "name": "Launch XmlConfigWithBeanFactory",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.XmlConfigWithBeanFactory",
+            "projectName": "setter-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldSpringAnnotated(1)",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.annotated.HelloWorldSpringAnnotated",
+            "projectName": "setter-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldSpringMixed",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.mixed.HelloWorldSpringMixed",
+            "projectName": "setter-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch InjectSimple",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.annotated.InjectSimple",
+            "projectName": "simple-types"
+        },
+        {
+            "type": "java",
+            "name": "Launch InjectSimpleSepl",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.annotated.InjectSimpleSepl",
+            "projectName": "simple-types"
+        },
+        {
+            "type": "java",
+            "name": "Launch InjectSimple(1)",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.xml.InjectSimple",
+            "projectName": "simple-types"
+        },
+        {
+            "type": "java",
+            "name": "Launch InjectSimpleSepl(1)",
+            "request": "launch",
+            "mainClass": "com.prospring5.ch3.xml.InjectSimpleSepl",
+            "projectName": "simple-types"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(1)",
+            "request": "launch",
+            "mainClass": "com.prospring5.Client",
+            "projectName": "spring-constructor-injection"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(2)",
+            "request": "launch",
+            "mainClass": "com.prospring5.Client",
+            "projectName": "spring-ioc"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoJdbcAnnotations",
+            "request": "launch",
+            "mainClass": "com.prospring5.DemoJdbcAnnotations",
+            "projectName": "spring-jdbc-annotations"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(3)",
+            "request": "launch",
+            "mainClass": "com.prospring5.Client",
+            "projectName": "spring-setter-injection"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HibernateBaseApplication<hibernate-base>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.prospring5.HibernateBaseApplication",
+            "projectName": "hibernate-base",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
