@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ClientApplication",
+            "request": "launch",
+            "mainClass": "com.infosys.ClientApplication",
+            "projectName": "demo_jdbc_api"
+        },
+        {
+            "type": "java",
             "name": "Launch JpaCrudApplication",
             "request": "launch",
             "mainClass": "com.prospring5.JpaCrudApplication",
