@@ -11,4 +11,5 @@ public interface CardCustomerService {
     public Integer addCustomer(CustomerDTO customerDTO) throws InfyBankException;
     public void issueCardToExistingCustomer(Integer customerId, CardDTO cardDTO) throws InfyBankException;
     public void deleteCardOfExistingCustomer(Integer customerId, List<Integer> cardIdsToDelete) throws InfyBankException;
+    public void deleteCustomer(Integer customerId) throws InfyBankException;
 }

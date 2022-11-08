@@ -96,5 +96,12 @@ public class CardCustomerServiceImpl implements CardCustomerService {
         }
         
     }
+
+    @Override
+    public void deleteCustomer(Integer customerId) throws InfyBankException {
+        Optional<Customer> optional = customerRepository.findById(customerId);
+        Customer customer = optional.orElseThrow(() -> new InfyBankException("Service.CUSTOMER_NOT_FOUND"));
+        customerRepository.delete(customer);
+    }
     
 }

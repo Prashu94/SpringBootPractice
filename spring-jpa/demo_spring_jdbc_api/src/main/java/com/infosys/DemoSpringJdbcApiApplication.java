@@ -33,7 +33,8 @@ public class DemoSpringJdbcApiApplication implements CommandLineRunner {
 		//getCustomerWithCardDetails();
 		//addCustomer();
 		//addNewCardToExistingCustomer();
-		deleteCardOfExistingCustomer();
+		//deleteCardOfExistingCustomer();
+		deleteCustomer();
 	}
 
 	public void getCustomerWithCardDetails(){
@@ -99,6 +100,17 @@ public class DemoSpringJdbcApiApplication implements CommandLineRunner {
 			cardIdsToBeDeleted.add(12347);
 			cardCustomerService.deleteCardOfExistingCustomer(customerId, cardIdsToBeDeleted);
 			LOGGER.info("\n" + environment.getProperty("UserInterface.CARD_DEACTIVATED"));
+		}catch(Exception e){
+			String message = environment.getProperty(e.getMessage(),"Some exception occured. Please check log file for more details!!");
+			LOGGER.info(message);
+		}
+	}
+
+	public void deleteCustomer(){
+		try{
+			Integer customerId = 1001;
+			cardCustomerService.deleteCustomer(customerId);
+			LOGGER.info("\n" + environment.getProperty("UserInterface.CUSTOMER_DELETED"));
 		}catch(Exception e){
 			String message = environment.getProperty(e.getMessage(),"Some exception occured. Please check log file for more details!!");
 			LOGGER.info(message);
