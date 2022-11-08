@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DemoSpringJdbcApiApplication",
+            "request": "launch",
+            "mainClass": "com.infosys.DemoSpringJdbcApiApplication",
+            "projectName": "demo_spring_jdbc_api"
+        },
+        {
+            "type": "java",
             "name": "Launch ClientApplication",
             "request": "launch",
             "mainClass": "com.infosys.ClientApplication",
