@@ -1,0 +1,286 @@
+08-Jul-2020 19:03:24 INFO - Starting DemoSpringDataManyToOneMappingApplication on MYSHEC119503L with PID 20772 (D:\content\FA2\new\zips\Demo_SpringData_ManyToOneMapping\Demo_SpringData_ManyToOneMapping\target\classes started by ria.singh in D:\content\FA2\new\zips\Demo_SpringData_ManyToOneMapping\Demo_SpringData_ManyToOneMapping)
+08-Jul-2020 19:03:24 INFO - No active profile set, falling back to default profiles: default
+08-Jul-2020 19:03:26 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+08-Jul-2020 19:03:26 INFO - Finished Spring Data repository scanning in 135ms. Found 2 JPA repository interfaces.
+08-Jul-2020 19:03:27 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+08-Jul-2020 19:03:27 INFO - HikariPool-1 - Starting...
+08-Jul-2020 19:03:28 INFO - HikariPool-1 - Start completed.
+08-Jul-2020 19:03:29 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2020 19:03:29 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+08-Jul-2020 19:03:29 INFO - Triggering deferred initialization of Spring Data repositories…
+08-Jul-2020 19:03:30 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+08-Jul-2020 19:03:30 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+08-Jul-2020 19:03:32 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2020 19:03:32 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2020 19:03:32 INFO - Spring Data repositories initialized!
+08-Jul-2020 19:03:32 INFO - Started DemoSpringDataManyToOneMappingApplication in 8.636 seconds (JVM running for 10.319)
+17-Jul-2020 15:11:06 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+17-Jul-2020 15:11:07 INFO - Finished Spring Data repository scanning in 153ms. Found 2 JPA repository interfaces.
+17-Jul-2020 15:11:08 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+17-Jul-2020 15:11:08 INFO - HikariPool-1 - Starting...
+17-Jul-2020 15:11:09 INFO - HikariPool-1 - Start completed.
+17-Jul-2020 15:11:09 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-Jul-2020 15:11:10 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+17-Jul-2020 15:11:10 INFO - Triggering deferred initialization of Spring Data repositories…
+17-Jul-2020 15:11:11 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17-Jul-2020 15:11:11 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17-Jul-2020 15:11:13 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-Jul-2020 15:11:13 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-Jul-2020 15:11:13 INFO - Spring Data repositories initialized!
+17-Jul-2020 15:12:01 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+17-Jul-2020 15:12:01 INFO - Finished Spring Data repository scanning in 141ms. Found 2 JPA repository interfaces.
+17-Jul-2020 15:12:02 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+17-Jul-2020 15:12:02 INFO - HikariPool-1 - Starting...
+17-Jul-2020 15:12:04 INFO - HikariPool-1 - Start completed.
+17-Jul-2020 15:12:04 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-Jul-2020 15:12:04 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+17-Jul-2020 15:12:04 INFO - Triggering deferred initialization of Spring Data repositories…
+17-Jul-2020 15:12:05 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17-Jul-2020 15:12:05 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17-Jul-2020 15:12:07 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-Jul-2020 15:12:07 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-Jul-2020 15:12:07 INFO - Spring Data repositories initialized!
+17-Jul-2020 15:12:56 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+17-Jul-2020 15:12:56 INFO - Finished Spring Data repository scanning in 135ms. Found 2 JPA repository interfaces.
+17-Jul-2020 15:12:57 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+17-Jul-2020 15:12:57 INFO - HikariPool-1 - Starting...
+17-Jul-2020 15:12:58 INFO - HikariPool-1 - Start completed.
+17-Jul-2020 15:12:58 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-Jul-2020 15:12:59 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+17-Jul-2020 15:12:59 INFO - Triggering deferred initialization of Spring Data repositories…
+17-Jul-2020 15:12:59 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17-Jul-2020 15:13:00 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17-Jul-2020 15:13:01 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-Jul-2020 15:13:01 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-Jul-2020 15:13:02 INFO - Spring Data repositories initialized!
+17-Jul-2020 15:13:40 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+17-Jul-2020 15:13:40 INFO - Finished Spring Data repository scanning in 123ms. Found 2 JPA repository interfaces.
+17-Jul-2020 15:13:41 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+17-Jul-2020 15:13:41 INFO - HikariPool-1 - Starting...
+17-Jul-2020 15:13:43 INFO - HikariPool-1 - Start completed.
+17-Jul-2020 15:13:43 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-Jul-2020 15:13:43 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+17-Jul-2020 15:13:43 INFO - Triggering deferred initialization of Spring Data repositories…
+17-Jul-2020 15:13:44 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17-Jul-2020 15:13:44 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17-Jul-2020 15:13:45 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-Jul-2020 15:13:45 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-Jul-2020 15:13:46 INFO - Spring Data repositories initialized!
+17-Jul-2020 15:14:38 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+17-Jul-2020 15:14:38 INFO - Finished Spring Data repository scanning in 130ms. Found 2 JPA repository interfaces.
+17-Jul-2020 15:14:40 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+17-Jul-2020 15:14:40 INFO - HikariPool-1 - Starting...
+17-Jul-2020 15:14:41 INFO - HikariPool-1 - Start completed.
+17-Jul-2020 15:14:41 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-Jul-2020 15:14:41 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+17-Jul-2020 15:14:42 INFO - Triggering deferred initialization of Spring Data repositories…
+17-Jul-2020 15:14:42 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17-Jul-2020 15:14:42 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17-Jul-2020 15:14:44 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-Jul-2020 15:14:44 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-Jul-2020 15:14:44 INFO - Spring Data repositories initialized!
+17-Jul-2020 15:14:45 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+29-Dec-2021 14:46:24 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-Dec-2021 14:46:24 INFO - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+29-Dec-2021 14:46:24 INFO - HikariPool-1 - Starting...
+29-Dec-2021 14:46:25 INFO - HikariPool-1 - Start completed.
+29-Dec-2021 14:46:25 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+29-Dec-2021 14:46:25 INFO - HHH000412: Hibernate ORM core version 5.6.3.Final
+29-Dec-2021 14:46:25 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+29-Dec-2021 14:46:25 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+29-Dec-2021 14:46:26 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-Dec-2021 14:46:26 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-Dec-2021 14:46:27 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+29-Dec-2021 14:46:27 INFO - HikariPool-1 - Shutdown initiated...
+29-Dec-2021 14:46:27 INFO - HikariPool-1 - Shutdown completed.
+29-Dec-2021 17:09:39 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-Dec-2021 17:09:39 INFO - Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+29-Dec-2021 17:09:40 INFO - HikariPool-1 - Starting...
+29-Dec-2021 17:09:41 INFO - HikariPool-1 - Start completed.
+29-Dec-2021 17:09:41 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+29-Dec-2021 17:09:41 INFO - HHH000412: Hibernate ORM core version 5.6.3.Final
+29-Dec-2021 17:09:42 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+29-Dec-2021 17:09:42 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+29-Dec-2021 17:09:43 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-Dec-2021 17:09:43 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-Dec-2021 17:09:45 WARN - SQL Error: 1062, SQLState: 23000
+29-Dec-2021 17:09:45 ERROR - Duplicate entry '1006' for key 'customer.PRIMARY'
+29-Dec-2021 17:09:45 INFO - HHH000010: On release of batch it still contained JDBC statements
+29-Dec-2021 17:09:45 ERROR - could not execute statement; SQL [n/a]; constraint [customer.PRIMARY]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [customer.PRIMARY]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:276) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.6.0.jar:2.6.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.14.jar:5.3.14]
+	at com.sun.proxy.$Proxy109.save(Unknown Source) ~[?:?]
+	at com.infy.service.CustomerLoanServiceImpl.addLoanAndCustomer(CustomerLoanServiceImpl.java:74) ~[classes/:?]
+	at com.infy.service.CustomerLoanServiceImpl$$FastClassBySpringCGLIB$$98c82e65.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) [spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) [spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) [spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) [spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) [spring-aop-5.3.14.jar:5.3.14]
+	at com.infy.service.CustomerLoanServiceImpl$$EnhancerBySpringCGLIB$$1fc62fb8.addLoanAndCustomer(<generated>) [classes/:?]
+	at com.infy.DemoManyToOneApplication.addLoanAndCustomer(DemoManyToOneApplication.java:69) [classes/:?]
+	at com.infy.DemoManyToOneApplication.run(DemoManyToOneApplication.java:35) [classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.infy.DemoManyToOneApplication.main(DemoManyToOneApplication.java:29) [classes/:?]
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3375) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3908) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeInserts(ActionQueue.java:461) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:258) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:760) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:746) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.14.jar:5.3.14]
+	at com.sun.proxy.$Proxy103.persist(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:624) ~[spring-data-jpa-2.6.0.jar:2.6.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:638) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.14.jar:5.3.14]
+	... 34 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1006' for key 'customer.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1098) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1046) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1371) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1031) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3375) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3908) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeInserts(ActionQueue.java:461) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:258) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:760) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:746) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.14.jar:5.3.14]
+	at com.sun.proxy.$Proxy103.persist(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:624) ~[spring-data-jpa-2.6.0.jar:2.6.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:638) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.14.jar:5.3.14]
+	... 34 more
+29-Dec-2021 17:09:45 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+29-Dec-2021 17:09:45 INFO - HikariPool-1 - Shutdown initiated...
+29-Dec-2021 17:09:45 INFO - HikariPool-1 - Shutdown completed.
+29-Dec-2021 17:10:03 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-Dec-2021 17:10:03 INFO - Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+29-Dec-2021 17:10:04 INFO - HikariPool-1 - Starting...
+29-Dec-2021 17:10:04 INFO - HikariPool-1 - Start completed.
+29-Dec-2021 17:10:05 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+29-Dec-2021 17:10:05 INFO - HHH000412: Hibernate ORM core version 5.6.3.Final
+29-Dec-2021 17:10:05 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+29-Dec-2021 17:10:05 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+29-Dec-2021 17:10:06 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-Dec-2021 17:10:06 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-Dec-2021 17:10:07 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+29-Dec-2021 17:10:07 INFO - HikariPool-1 - Shutdown initiated...
+29-Dec-2021 17:10:08 INFO - HikariPool-1 - Shutdown completed.
+29-Dec-2021 17:15:55 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-Dec-2021 17:15:55 INFO - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+29-Dec-2021 17:15:56 INFO - HikariPool-1 - Starting...
+29-Dec-2021 17:15:57 INFO - HikariPool-1 - Start completed.
+29-Dec-2021 17:15:57 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+29-Dec-2021 17:15:57 INFO - HHH000412: Hibernate ORM core version 5.6.3.Final
+29-Dec-2021 17:15:57 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+29-Dec-2021 17:15:57 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+29-Dec-2021 17:15:58 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-Dec-2021 17:15:58 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-Dec-2021 17:15:59 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+29-Dec-2021 17:15:59 INFO - HikariPool-1 - Shutdown initiated...
+29-Dec-2021 17:15:59 INFO - HikariPool-1 - Shutdown completed.
