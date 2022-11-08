@@ -30,16 +30,16 @@ public class DemoSpringJdbcApiApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		//getCustomerWithCardDetails();
+		getCustomerWithCardDetails();
 		//addCustomer();
 		//addNewCardToExistingCustomer();
 		//deleteCardOfExistingCustomer();
-		deleteCustomer();
+		//deleteCustomer();
 	}
 
 	public void getCustomerWithCardDetails(){
 		try{
-			Integer customerId = 1001;
+			Integer customerId = 1002;
 			CustomerDTO customerDTO = cardCustomerService.getCustomerDetails(customerId);
 			LOGGER.info(customerDTO);
 			if(customerDTO.getCards().isEmpty()){
