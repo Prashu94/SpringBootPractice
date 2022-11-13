@@ -42,6 +42,10 @@
     <module>demo-spring-orm</module>
 
     <module>demo_spring_jdbc_api</module>
+
+    <module>demo_orm_operations</module>
+
+    <module>demo_orm_assignment</module>
       
   </modules>
   

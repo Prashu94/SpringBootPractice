@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DemoOrmOperationsApplication",
+            "request": "launch",
+            "mainClass": "com.infosys.DemoOrmOperationsApplication",
+            "projectName": "demo_orm_operations"
+        },
+        {
+            "type": "java",
             "name": "Launch DemoSpringJdbcApiApplication",
             "request": "launch",
             "mainClass": "com.infosys.DemoSpringJdbcApiApplication",
