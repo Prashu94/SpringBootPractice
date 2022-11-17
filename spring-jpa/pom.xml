@@ -46,6 +46,8 @@
     <module>demo_orm_operations</module>
 
     <module>demo_orm_assignment</module>
+
+    <module>demo_jpql_1</module>
       
   </modules>
   

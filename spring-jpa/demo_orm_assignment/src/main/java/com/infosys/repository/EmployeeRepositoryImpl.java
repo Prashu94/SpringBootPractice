@@ -21,26 +21,37 @@ public class EmployeeRepositoryImpl implements EmployeeRepository{
         employee.setEmployeeName(employeeDTO.getEmployeeName());
         employee.setEmailId(employeeDTO.getEmailId());
         employee.setDateOfBirth(employeeDTO.getDateOfBirth());
+        employee.setManufacturingUnit(employeeDTO.getManufacturingUnit());
         entityManager.persist(employee);
         return employee.getEmployeeId();
     }
 
     @Override
     public EmployeeDTO getEmployeeDetails(Integer employeeId) {
-        
-        return null;
+        EmployeeDTO employeeDTO = null;
+        Employee employee = entityManager.find(Employee.class, employeeId);
+        if(employee!=null){
+            employeeDTO = new EmployeeDTO();
+            employeeDTO.setEmployeeId(employee.getEmployeeId());
+            employeeDTO.setEmployeeName(employee.getEmployeeName());
+            employeeDTO.setEmailId(employee.getEmailId());
+            employeeDTO.setDateOfBirth(employee.getDateOfBirth());
+            employeeDTO.setManufacturingUnit(employee.getManufacturingUnit());
+        }
+        return employeeDTO;
     }
 
     @Override
     public void updateEmployee(Integer employeeId, String emailId) {
-        // TODO Auto-generated method stub
-        
+        Employee employee = entityManager.find(Employee.class, employeeId);
+        employee.setEmailId(emailId);
+        entityManager.merge(employee);
     }
 
     @Override
     public void deleteEmployee(Integer employeeId) {
-        // TODO Auto-generated method stub
-        
+        Employee employee = entityManager.find(Employee.class, employeeId);
+        entityManager.remove(employee);
     }
     
 }

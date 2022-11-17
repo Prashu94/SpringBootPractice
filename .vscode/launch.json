@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DemoJpql1Application",
+            "request": "launch",
+            "mainClass": "com.infosys.DemoJpql1Application",
+            "projectName": "demo_jpql_1"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoOrmAssignmentApplication",
+            "request": "launch",
+            "mainClass": "com.infosys.DemoOrmAssignmentApplication",
+            "projectName": "demo_orm_assignment"
+        },
+        {
+            "type": "java",
             "name": "Launch DemoOrmOperationsApplication",
             "request": "launch",
             "mainClass": "com.infosys.DemoOrmOperationsApplication",
