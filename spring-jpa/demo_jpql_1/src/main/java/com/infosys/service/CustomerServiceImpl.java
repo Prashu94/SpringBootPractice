@@ -32,5 +32,60 @@ public class CustomerServiceImpl implements CustomerService {
     public List<String> getCustomerName() throws InfyBankException {
         return customerRepository.getCustomerName();
     }
+
+	@Override
+	public List<CustomerDTO> getCustomerDetails(Integer customerId) throws InfyBankException {
+		return customerRepository.getCustomerDetails(customerId);
+	}
+
+	@Override
+	public List<CustomerDTO> getCustomerDetailsV1(Integer customerId) throws InfyBankException {
+		return customerRepository.getCustomerDetailsV1(customerId);
+	}
+
+	@Override
+	public List<CustomerDTO> getCustomerDetailsV2() throws InfyBankException {
+		return customerRepository.getCustomerDetailsWhereClauses();
+	}
+
+	@Override
+	public Double getAverageBalance() {
+		return customerRepository.getAverageBalance();
+	}
+
+	@Override
+	public Long getTotalBalance() {
+		return customerRepository.getTotalBalance();
+	}
+
+	@Override
+	public Long getNumberOfAccounts() {
+		return customerRepository.getNumberOfAccounts();
+	}
+
+	@Override
+	public Integer getMinimumBalance() {
+		return customerRepository.getMinimumBalance();
+	}
+
+	@Override
+	public Integer getMaximumBalance() {
+		return customerRepository.getMaximumBalance();
+	}
+
+	@Override
+	public List<Object[]> getCustomerCountForCities() throws InfyBankException {
+		return customerRepository.getCustomerCountForCities();
+	}
+
+	@Override
+	public Integer updateCityOfCustomer(Integer customerId, String city) throws InfyBankException {
+		return customerRepository.updateCityOfCustomer(customerId, city);
+	}
+
+	@Override
+	public Integer deleteCustomer() throws InfyBankException {
+		return customerRepository.deleteCustomer();
+	}
     
 }
