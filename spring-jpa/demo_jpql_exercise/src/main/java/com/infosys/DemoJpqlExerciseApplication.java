@@ -28,9 +28,16 @@ public class DemoJpqlExerciseApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		getMovieByName();
-		getMovieByImdbRating();
-		getMovieNameAndYear();
+		// Exercise 1
+		//getMovieByName();
+		//getMovieByImdbRating();
+		//getMovieNameAndYear();
+		
+		// Exercise 2
+		getMovieByRating();
+		getHighestRatedMovie();
+		getAverageDirectorRating();
+		getNumberOfMoviesReleased();
 	}
 	
 	public void getMovieByName() {
@@ -71,6 +78,56 @@ public class DemoJpqlExerciseApplication implements CommandLineRunner{
 			LOGGER.info(environment.getProperty(e.getMessage(), "Some exception occured. Please check log file"));
 			LOGGER.info("\n");
 		}
+	}
+	
+	public void getMovieByRating() {
+		try {
+			Double fromRating = 7.6d;
+			List<MovieDTO> movieDTOs = movieService.getMovieByRating(fromRating);
+			movieDTOs.forEach(LOGGER::info);
+		}catch(Exception e) {
+			LOGGER.info(environment.getProperty(e.getMessage(), "Some exception occured. Please check log file"));
+			LOGGER.info("\n");
+		}
+		LOGGER.info("\n");
+	}
+	
+	public void getHighestRatedMovie() {
+		try {
+			String directorName = "Joss Whedon";
+			List<MovieDTO> movieDTOs = movieService.getHighestRatedMovie(directorName);
+			movieDTOs.forEach(LOGGER::info);
+		}catch(Exception e) {
+			LOGGER.info(environment.getProperty(e.getMessage(), "Some exception occured. Please check log file"));
+			LOGGER.info("\n");
+		}
+		LOGGER.info("\n");
+	}
+	
+	public void getAverageDirectorRating() {
+		try {
+			String directorName = "Tim Miller";
+			Double avgRating = movieService.getAverageDirectorRating(directorName);
+			LOGGER.info(environment.getProperty("UserInterface.MOVIE_AVG_RATING") + directorName + ":" + avgRating);
+		}catch(Exception e) {
+			LOGGER.info(environment.getProperty(e.getMessage(), "Some exception occured. Please check log file"));
+			LOGGER.info("\n");
+		}
+		LOGGER.info("\n");
+	}
+	
+	public void getNumberOfMoviesReleased() {
+		try {
+			Integer fromYear = 2012;
+			Integer toYear = 2016;
+			Long noOfMoviesReleased = movieService.getNumberOfMoviesReleased(fromYear, toYear);
+			LOGGER.info(environment.getProperty("UserInterface.MOVIE_YEAR_BETWEEN") + fromYear
+					+ " and " + toYear+ " = "+noOfMoviesReleased);
+			LOGGER.info("\n");
+		} catch (Exception e) {
+			LOGGER.info(environment.getProperty(e.getMessage(), "Some exception occured.Please check log file."));
+		}
+		LOGGER.info("\n");
 	}
 
 }

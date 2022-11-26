@@ -48,6 +48,10 @@
     <module>demo_orm_assignment</module>
 
     <module>demo_jpql_1</module>
+    
+    <module>demo_jpql_exercise</module>
+    
+    <module>demo_spring_data</module>
       
   </modules>
   
