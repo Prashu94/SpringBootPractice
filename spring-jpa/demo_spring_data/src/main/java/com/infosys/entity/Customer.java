@@ -3,16 +3,14 @@ package com.infosys.entity;
 import java.time.LocalDate;
 import java.util.Objects;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
-
-
-
-
-
+import javax.persistence.NamedQuery;
+import javax.persistence.Table;
 
 @Entity
+@NamedQuery(name = "Customer.findNameByEmailIdV1", query = "SELECT c.name from Customer c where c.emailId = :emailId")
 public class Customer {
 	@Id
 	private Integer customerId;

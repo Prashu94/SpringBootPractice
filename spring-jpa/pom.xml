@@ -17,7 +17,7 @@
     
   <packaging>pom</packaging>
     
-  <modules>
+  	<module>demo_spring_data</module>modules>
       	
     <module>plain-jdbc-1</module>
       	
@@ -52,6 +52,8 @@
     <module>demo_jpql_exercise</module>
     
     <module>demo_spring_data</module>
+    
+    <module>demo_spring_data_exercise</module>
       
   </modules>
   
