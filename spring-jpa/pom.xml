@@ -32,5 +32,6 @@
 		<module>demo_spring_data_exercise</module>
 		<module>demo_spring_data_exercise</module>
 		<module>demo_spring_pagination</module>
+		<module>demo_spring_pagination_exercise</module>
 	</modules>
 </project>
