@@ -236,3 +236,15 @@ insert into players values (10, 'Laura Wolvaardt', 9, 'right-hand', 'NA', 2016, 
 commit;
 
 select * from players;
+
+-- Primary Key Generation
+create table customer (
+	customer_id int auto_increment ,
+	email_id varchar(20),
+	name varchar(10),
+	date_of_birth date,
+	constraint ps_customer_id_pk primary key ( customer_id )
+);
+insert into customer (customer_id, email_id, name, date_of_birth) values (552092, 'martin@infy.com', 'Martin', '1994-01-10');
+commit;
+select * from customer;

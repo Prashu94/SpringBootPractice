@@ -4,8 +4,10 @@ import java.util.Objects;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "players")
 public class Player {
 	
 	@Id
@@ -13,6 +15,7 @@ public class Player {
 	private String playerName;
 	private Integer ranking;
 	private String battingStyle;
+	private String bowlingStyle;
 	private String debutDate;
 	private String country;
 	public Integer getPlayerId() {
@@ -51,10 +54,17 @@ public class Player {
 	public void setCountry(String country) {
 		this.country = country;
 	}
+	public String getBowlingStyle() {
+		return bowlingStyle;
+	}
+	public void setBowlingStyle(String bowlingStyle) {
+		this.bowlingStyle = bowlingStyle;
+	}
 	@Override
 	public int hashCode() {
 		return Objects.hash(playerId);
 	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -69,9 +79,8 @@ public class Player {
 	@Override
 	public String toString() {
 		return "Player [playerId=" + playerId + ", playerName=" + playerName + ", ranking=" + ranking
-				+ ", battingStyle=" + battingStyle + ", debutDate=" + debutDate + ", country=" + country + "]";
+				+ ", battingStyle=" + battingStyle + ", bowlingStyle=" + bowlingStyle + ", debutDate=" + debutDate
+				+ ", country=" + country + "]";
 	}
-	
-	
 	
 }
