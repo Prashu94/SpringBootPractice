@@ -34,5 +34,7 @@
 		<module>demo_spring_pagination</module>
 		<module>demo_spring_pagination_exercise</module>
 		<module>demo_spring_primary_key</module>
+		<module>demo_spring_primary_key_exercise</module>
+		<module>demo_one_to_one</module>
 	</modules>
 </project>

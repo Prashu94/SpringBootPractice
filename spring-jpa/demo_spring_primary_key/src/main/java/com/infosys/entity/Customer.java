@@ -7,12 +7,27 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.TableGenerator;
 
 @Entity
 public class Customer {
 	
+	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	// IDENTITY
+	//@GeneratedValue(strategy=GenerationType.IDENTITY)
+	// DEFAULT table - hibernate_sequences
+	//@GeneratedValue(strategy = GenerationType.TABLE)
+	// Custom Table
+	@TableGenerator(
+			name = "pk_gen",
+			table = "id_gen",
+			pkColumnName = "gen_key",
+			valueColumnName = "gen_value",
+			pkColumnValue = "cust_id",
+			allocationSize = 1
+			)
+	@GeneratedValue(generator = "pk_gen", strategy = GenerationType.TABLE)
 	private Integer customerId;
 	private String emailId;
 	private String name;
