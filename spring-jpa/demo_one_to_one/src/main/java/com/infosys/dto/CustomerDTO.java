@@ -1,10 +1,13 @@
 package com.infosys.dto;
 
+import java.time.LocalDate;
+
 public class CustomerDTO {
 	
 	private Integer customerId;
 	private String emailId;
-	private String dateOfBirth;
+	private String name;
+	private LocalDate dateOfBirth;
 	private AddressDTO address;
 	public Integer getCustomerId() {
 		return customerId;
@@ -18,10 +21,10 @@ public class CustomerDTO {
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
 	}
-	public String getDateOfBirth() {
+	public LocalDate getDateOfBirth() {
 		return dateOfBirth;
 	}
-	public void setDateOfBirth(String dateOfBirth) {
+	public void setDateOfBirth(LocalDate dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 	public AddressDTO getAddress() {
@@ -30,11 +33,20 @@ public class CustomerDTO {
 	public void setAddress(AddressDTO address) {
 		this.address = address;
 	}
+
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	@Override
 	public String toString() {
-		return "CustomerDTO [customerId=" + customerId + ", emailId=" + emailId + ", dateOfBirth=" + dateOfBirth
-				+ ", address=" + address + "]";
+		return "CustomerDTO [customerId=" + customerId + ", emailId=" + emailId + ", name=" + name + ", dateOfBirth="
+				+ dateOfBirth + ", address=" + address + "]";
 	}
+	
+	
 	
 	
 }

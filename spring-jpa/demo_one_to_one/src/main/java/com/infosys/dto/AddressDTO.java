@@ -2,13 +2,13 @@ package com.infosys.dto;
 
 public class AddressDTO {
 	
-	private Long addressId;
+	private Integer addressId;
 	private String street;
 	private String city;
-	public Long getAddressId() {
+	public Integer getAddressId() {
 		return addressId;
 	}
-	public void setAddressId(Long addressId) {
+	public void setAddressId(Integer addressId) {
 		this.addressId = addressId;
 	}
 	public String getStreet() {
