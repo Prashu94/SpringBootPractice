@@ -50,8 +50,9 @@ public class DesktopAllocationServiceImpl implements DesktopAllocationService{
 
 	@Override
 	public Integer addTrainee(TraineeDTO traineeDTO) throws InfyTrainingException {
-		// TODO Auto-generated method stub
-		return null;
+		Trainee trainee = Converter.convertTraineeDTOToTrainee(traineeDTO);
+		traineeRepository.save(trainee);
+		return trainee.getTraineeId();
 	}
 
 	@Override

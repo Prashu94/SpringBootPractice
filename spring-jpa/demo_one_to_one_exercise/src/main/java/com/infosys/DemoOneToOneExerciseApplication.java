@@ -32,10 +32,12 @@ public class DemoOneToOneExerciseApplication implements CommandLineRunner{
 		getTraineeDetails();
 		LOGGER.info("======================= DESKTOP DETAILS ============================");
 		getDesktopDetails();
+		LOGGER.info("======================= ADD Trainee ============================");
+		addTrainee();
 		LOGGER.info("======================= DESKTOP ALLOCATION ============================");
 		allocateDesktop();
-		//LOGGER.info("======================= DESKTOP DEALLOCATE ============================");
-		//deallocateDesktop();
+		LOGGER.info("======================= DESKTOP DEALLOCATE ============================");
+		deallocateDesktop();
 		LOGGER.info("======================= DESKTOP DEALLOCATE ============================");
 		deleteTrainee();
 	}
@@ -107,6 +109,22 @@ public class DemoOneToOneExerciseApplication implements CommandLineRunner{
 			allocationService.deleteTrainee(traineeId);
 			LOGGER.info(environment.getProperty("UserInterface.TRAINEE_DELETED_SUCCESS"));
 
+		} catch (Exception e) {
+			LOGGER.info(
+					environment.getProperty(e.getMessage(), "Some exception occureed. Please check log file."));
+
+		}
+	}
+	
+	public void addTrainee() {
+		try {
+			TraineeDTO traineeDTO = new TraineeDTO();
+			traineeDTO.setTraineeName("John");
+
+			Integer traineeId = allocationService.addTrainee(traineeDTO);
+
+			String message = environment.getProperty("UserInterface.TRAINEE_SUCCESS");
+			LOGGER.info(message + traineeId);
 		} catch (Exception e) {
 			LOGGER.info(
 					environment.getProperty(e.getMessage(), "Some exception occureed. Please check log file."));
