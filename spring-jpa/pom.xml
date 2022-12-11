@@ -36,5 +36,6 @@
 		<module>demo_spring_primary_key</module>
 		<module>demo_spring_primary_key_exercise</module>
 		<module>demo_one_to_one</module>
+		<module>demo_one_to_one_exercise</module>
 	</modules>
 </project>
