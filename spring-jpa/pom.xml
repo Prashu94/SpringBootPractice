@@ -37,5 +37,7 @@
 		<module>demo_spring_primary_key_exercise</module>
 		<module>demo_one_to_one</module>
 		<module>demo_one_to_one_exercise</module>
+		<module>demo_many_to_one</module>
+		<module>demo_one_to_many</module>
 	</modules>
 </project>
