@@ -39,5 +39,6 @@
 		<module>demo_one_to_one_exercise</module>
 		<module>demo_many_to_one</module>
 		<module>demo_one_to_many</module>
+		<module>demo_many_to_many</module>
 	</modules>
 </project>
