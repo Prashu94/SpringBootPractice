@@ -48,11 +48,11 @@ public class CustomerDAOImpl implements CustomerDAO{
 		return result;
 	}
 
-	@SuppressWarnings("unchecked")
 	@Override
+	@SuppressWarnings("unchecked")
 	public List<Customer> getAll() {
 		EntityManager entityManager = this.entityManagerFactory.createEntityManager();
-		Query query = entityManager.createQuery("Select c from Customer c");
+		Query query = entityManager.createQuery("Select c from Customer c ");
 		return (List<Customer>)query.getResultList();
 	}
 
