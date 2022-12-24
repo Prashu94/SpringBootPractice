@@ -448,3 +448,19 @@ select * from services;
 select * from customer_service;
 
 
+
+-- Spring Data JPA With Boot
+create database customer_plan;
+use customer_plan;
+create table customer(
+phone_no bigint primary key,
+name varchar(50),
+age integer,
+gender char(10),
+address varchar(50),
+plan_id integer
+);
+select * from customer;
+delete from customer;
+
+

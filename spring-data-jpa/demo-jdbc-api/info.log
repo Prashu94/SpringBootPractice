@@ -1,0 +1,464 @@
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:103)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:37)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:135)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:37)
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:103)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:37)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:135)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:37)
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:103)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:37)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:135)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:37)
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:103)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:36)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:135)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:36)
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:103)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:36)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:135)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:36)
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:103)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:36)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.findAll(CustomerDAOImpl.java:135)
+	at com.infosys.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:24)
+	at com.infosys.ClientApplication.main(ClientApplication.java:36)
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] INFO  com.infosys.ClientApplication  - Enter the phone number you want to find: 
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: spring-data-jpa\demo-jdbc-api\src\main\resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:27)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:56)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] INFO  com.infosys.ClientApplication  - Enter the phone number you want to find: 
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Can not issue data manipulation statements with executeQuery().
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkForDml(StatementImpl.java:367)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:962)
+	at com.infosys.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:49)
+	at com.infosys.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:14)
+	at com.infosys.ClientApplication.insertCustomerData(ClientApplication.java:90)
+	at com.infosys.ClientApplication.main(ClientApplication.java:32)
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] INFO  com.infosys.ClientApplication  - Enter the phone number you want to find: 
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] INFO  com.infosys.ClientApplication  - Enter the phone number you want to find: 
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713722, name=Lucy, age=27, gender=F, address=INDIA, planId=3]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713723, name=James, age=28, gender=M, address=AUSTRALIA, planId=4]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713724, name=Oliver, age=34, gender=M, address=CANADA, planId=3]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713725, name=Adam, age=56, gender=M, address=USA, planId=1]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713726, name=Eve, age=23, gender=F, address=NEW ZELAND, planId=3]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713727, name=John, age=22, gender=M, address=JAMICA, planId=2]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713728, name=Andrew, age=12, gender=M, address=ENGLAND, planId=1]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713729, name=Virat, age=35, gender=M, address=INDIA, planId=1]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713730, name=Rohit, age=34, gender=M, address=INDIA, planId=2]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713731, name=Surya, age=33, gender=M, address=INDIA, planId=1]
+[main] INFO  com.infosys.ClientApplication  - Enter the phone number you want to find: 
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713729, name=Virat, age=35, gender=M, address=INDIA, planId=1]
+[main] INFO  com.infosys.ClientApplication  - Records are successfully added..
+[main] INFO  com.infosys.ClientApplication  - Enter the phone Number of the Customer which has to be deleted.
+[main] ERROR com.infosys.repository.CustomerDAOImpl  - Unknown column 'phoneNo' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'phoneNo' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.infosys.repository.CustomerDAOImpl.remove(CustomerDAOImpl.java:84)
+	at com.infosys.service.CustomerServiceImpl.remove(CustomerServiceImpl.java:19)
+	at com.infosys.ClientApplication.main(ClientApplication.java:47)
+[main] INFO  com.infosys.ClientApplication  - Success : Record deleted successfully 
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.repository.CustomerDAOImpl  - Record Inserted
+[main] INFO  com.infosys.ClientApplication  - Check records after inserting the customer records
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713722, name=Lucy, age=27, gender=F, address=INDIA, planId=3]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713723, name=James, age=28, gender=M, address=AUSTRALIA, planId=4]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713724, name=Oliver, age=34, gender=M, address=CANADA, planId=3]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713725, name=Adam, age=56, gender=M, address=USA, planId=1]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713726, name=Eve, age=23, gender=F, address=NEW ZELAND, planId=3]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713727, name=John, age=22, gender=M, address=JAMICA, planId=2]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713728, name=Andrew, age=12, gender=M, address=ENGLAND, planId=1]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713729, name=Virat, age=35, gender=M, address=INDIA, planId=1]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713730, name=Rohit, age=34, gender=M, address=INDIA, planId=2]
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713731, name=Surya, age=33, gender=M, address=INDIA, planId=1]
+[main] INFO  com.infosys.ClientApplication  - Enter the phone number you want to find: 
+[main] INFO  com.infosys.ClientApplication  - CustomerDTO [phoneNumber=7022713730, name=Rohit, age=34, gender=M, address=INDIA, planId=2]
+[main] INFO  com.infosys.ClientApplication  - Records are successfully added..
+[main] INFO  com.infosys.ClientApplication  - Enter the phone Number of the Customer which has to be deleted.
+[main] INFO  com.infosys.ClientApplication  - Success : Record deleted successfully 

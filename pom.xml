@@ -11,6 +11,7 @@
   	<module>spring-basics-demo</module>
   	<module>chapter04</module>
   	<module>spring-jpa</module>
+  	<module>spring-data-jpa</module>
   </modules>
   
   	<properties>
