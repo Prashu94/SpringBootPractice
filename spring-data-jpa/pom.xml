@@ -11,5 +11,6 @@
   <modules>
   	<module>demo-jdbc-api</module>
   	<module>demo_spring_orm_jpa_crud</module>
+  	<module>demo_jpa_insertdelete</module>
   </modules>
 </project>

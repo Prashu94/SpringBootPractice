@@ -19,52 +19,50 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.support.AbstractApplicationContext;
 
 import com.infosys.dto.CustomerDTO;
+import com.infosys.entity.Customer;
 import com.infosys.service.CustomerService;
 
 @SpringBootApplication
-public class DemoSpringOrmJpaCrudApplication implements CommandLineRunner {
-	public static final Logger LOGGER = LogManager.getLogger(DemoSpringOrmJpaCrudApplication.class);
+public class DemoJpaInsertdeleteApplication implements CommandLineRunner {
+	public static final Logger LOGGER = LogManager.getLogger(DemoJpaInsertdeleteApplication.class);
 
 	@Autowired
 	AbstractApplicationContext context;
 
+	@Autowired
+	CustomerService customerService;
+
 	public static void main(String[] args) {
-		SpringApplication.run(DemoSpringOrmJpaCrudApplication.class, args);
+		SpringApplication.run(DemoJpaInsertdeleteApplication.class, args);
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
 		CustomerService customerService = (CustomerService) context.getBean("customerService");
-		
+
 		Scanner scanner = new Scanner(System.in);
 
 		// read the csv file
-		List<CustomerDTO> customerDTOS = readFromCSV(
-				"src\\main\\resources\\CustomerData.csv");
+		List<CustomerDTO> customerDTOS = readFromCSV("src\\main\\resources\\CustomerData.csv");
 
 		// bulk insert
 		insertCustomerData(customerService, customerDTOS);
-
+		
 		LOGGER.info("Check records after inserting the customer records");
 		
-		listCustomerDTO(customerService.getAll());
-
+		listCustomerDTO(customerService.findAll());
+		
 		LOGGER.info("Enter the phone Number of the Customer which has to be deleted.");
 
 		Long phoneNo = scanner.nextLong();
-		int result = customerService.remove(phoneNo);
-		if (result == 1) {
-			LOGGER.info("Success : Record deleted successfully ");
-		} else {
-			LOGGER.info("Error : No record found for the given phone number ");
-		}
+		customerService.removeCustomer(phoneNo);
 		
 		LOGGER.info("Let us update the customer's address");
 		LOGGER.info("Enter the phone number of the customer to be updated");
 		Long phoneNo1 = scanner.nextLong();
-		LOGGER.info("Enter the new address ");
-		String address = scanner.next();
-		customerService.update(phoneNo1, address);
+		LOGGER.info("Enter the new planId ");
+		Integer planId = scanner.nextInt();
+		customerService.updateCustomer(phoneNo1, planId);
 		LOGGER.info("Customer's address updated successfully");
 
 		scanner.close();
@@ -103,14 +101,19 @@ public class DemoSpringOrmJpaCrudApplication implements CommandLineRunner {
 
 	public static void insertCustomerData(CustomerService service, List<CustomerDTO> customerDTO) {
 		for (CustomerDTO customer : customerDTO) {
-			service.insert(customer);
+			try {
+				service.insertCustomer(customer);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 
-	private static void listCustomerDTO(List<CustomerDTO> customerDTO) {
-		for (CustomerDTO customer : customerDTO) {
+	private static void listCustomerDTO(List<Customer> customer) {
+		for (Customer cust : customer) {
 
-			LOGGER.info(customer);
+			LOGGER.info(Customer.prepareCustomerDTO(cust));
 		}
 	}
 

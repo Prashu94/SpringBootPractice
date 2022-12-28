@@ -54,6 +54,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 		EntityManager entityManager = this.entityManagerFactory.createEntityManager();
 		Query query = entityManager.createQuery("Select c from Customer c ");
 		return (List<Customer>)query.getResultList();
+		
 	}
 
 	@Override
