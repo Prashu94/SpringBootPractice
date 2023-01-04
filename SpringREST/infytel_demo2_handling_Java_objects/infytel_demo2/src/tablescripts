@@ -1,0 +1,54 @@
+Table creation scripts:
+
+create schema scriptschema;--------->Schema creation
+CallDetails Table:
+CREATE TABLE scriptschema.calldetails (
+  id bigint(20) NOT NULL,
+  calledBy bigint(20) NOT NULL,
+  calledOn date NOT NULL,
+  calledTo bigint(20) NOT NULL,
+  duration int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ;
+ 
+
+**********************************************************************************
+Customer Table:
+CREATE TABLE scriptschema.customer (
+  phone_no bigint(20) NOT NULL,
+  address varchar(50) NOT NULL,
+  age int(11) NOT NULL,
+  gender char(1) NOT NULL,
+  name varchar(50) NOT NULL,
+  email varchar(50) NOT NULL,
+  password varchar(50) NOT NULL,
+  plan_id int(11) DEFAULT NULL,
+  PRIMARY KEY (`phone_no`),
+  KEY  (`plan_id`)
+);
+  
+
+**********************************************************************************
+FriendFamily Table:
+CREATE TABLE friendfamily (
+  id int(11) NOT NULL,
+  friend_and_family bigint(20) DEFAULT NULL,
+  phone_no bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY(`phone_no`)
+);
+
+ 
+
+**********************************************************************************
+Plan Table:
+
+CREATE TABLE plan (
+  plan_id int(11) NOT NULL,
+  local_rate int(11) NOT NULL,
+  national_rate int(11) NOT NULL,
+  plan_name varchar(50) NOT NULL,
+  PRIMARY KEY (`plan_id`)
+);
+ 
+

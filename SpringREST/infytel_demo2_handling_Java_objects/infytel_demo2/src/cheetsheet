@@ -1,0 +1,37 @@
+GET :http://localhost:8080/infytel-db/customers
+POST :http://localhost:8080/infytel-db/customers
+{
+        "phoneNo": 8008551584,
+ 
+     	  "name": "Jack",
+       
+ 	  "jack@infy.com",
+     
+          "age": 23,
+       
+         "gender": 
+         "friendAndFamily": [],
+   
+         "password": "infyel",
+    
+         "address": "HYD",
+    
+         "currentPlan": {
+  "planId": 1
+}}
+
+Delete :http://localhost:8080/infytel-db/customers/{id}
+update:http://localhost:8080/infytel-db/customers/{id}
+PUT:http://localhost:8080/infytel-db/customers/{id}
+/* You can change name,address,email or all three */
+    sample data:{
+  "name": "Jack2",
+            
+        "email": "jack@infy.com",
+            
+        "address": "SECunderabad"
+ 
+                } 
+
+ 
+Swagger Link:http://localhost:8080/infytel-db/swagger-ui.html
