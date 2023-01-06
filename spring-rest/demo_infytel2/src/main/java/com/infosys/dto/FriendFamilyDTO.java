@@ -4,6 +4,17 @@ public class FriendFamilyDTO {
 	
 	private long phoneNo;
 	private long friendAndFamily;
+	
+	public FriendFamilyDTO() {
+		super();
+	}
+	
+	public FriendFamilyDTO(long phoneNo, long friendAndFamily) {
+		super();
+		this.phoneNo = phoneNo;
+		this.friendAndFamily = friendAndFamily;
+	}
+	
 	public long getPhoneNo() {
 		return phoneNo;
 	}

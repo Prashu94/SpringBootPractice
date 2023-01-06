@@ -1,0 +1,65 @@
+package com.infosys.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.stereotype.Repository;
+
+import com.infosys.dto.CustomerDTO;
+import com.infosys.dto.FriendFamilyDTO;
+import com.infosys.dto.PlanDTO;
+
+@Repository
+public class CustomerRepository {
+	
+	List<CustomerDTO> customers = null;
+	
+	// Equivalent/similar to constructor, Here we populate the DTOs in a hard-coded manner
+	@PostConstruct
+	public void initializer() {
+		CustomerDTO customerDTO = new CustomerDTO();
+		PlanDTO planDTO = new PlanDTO();
+		
+		planDTO.setPlanId(1);
+		planDTO.setPlanName("Simple");
+		planDTO.setLocalRate(3);
+		planDTO.setNationalRate(5);
+		
+		
+		customerDTO.setAddress("Chennai");
+		customerDTO.setAge(18);
+		customerDTO.setCurrentPlan(planDTO);
+		customerDTO.setEmail("Jack@infy.com");
+		customerDTO.setGender('m');
+		customerDTO.setName("Jack");
+		customerDTO.setPassword("ABC@123");
+		customerDTO.setPhoneNo(9951212222l);
+		
+		List<FriendFamilyDTO> friendAndFamily = new ArrayList<FriendFamilyDTO>();
+		friendAndFamily.add(new FriendFamilyDTO(customerDTO.getPhoneNo(), 800000145));
+		friendAndFamily.add(new FriendFamilyDTO(customerDTO.getPhoneNo(), 700000145));
+		
+		customerDTO.setFriendAndFamily(friendAndFamily);
+		
+		customers = new ArrayList<CustomerDTO>();
+		customers.add(customerDTO);
+		
+	}
+	
+	// adds the received customer object to the customer list
+	public void createCustomer(CustomerDTO customerDTO) {
+		customers.add(customerDTO);
+	}
+	
+	// returns a list of customers
+	public List<CustomerDTO> fetchCustomer(){
+		return customers;
+	}
+	
+	// deletes the passed customer from the list
+	public void deleteCustomer(CustomerDTO customer) {
+		customers.remove(customer);
+	}
+}

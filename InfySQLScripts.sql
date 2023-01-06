@@ -464,3 +464,23 @@ select * from customer;
 delete from customer;
 
 
+-- SPRING REST
+drop table products;
+create table products(
+	product_code bigint primary key,
+    product_name varchar(20) not null,
+    product_vendor varchar(20) not null,
+    product_price decimal(10,2) not null,
+    product_in_stock int not null
+);
+
+
+insert into products values(1001, "Butter", "Amul", 39.99, 250);
+insert into products values(1002, "Hide and Seek", "Britannia", 24.50, 300);
+insert into products values(1003, "Brown Bread", "Britannia", 50.00, 100);
+insert into products values(1004, "Silk Chocolate", "Dairy Milk", 10.00, 500);
+insert into products values(1005, "Cold Drink", "Pepsi", 90.00, 190);
+insert into products values(1006, "Cold Drink", "Chocolate", 50.00, 500);
+
+select * from products;
+
