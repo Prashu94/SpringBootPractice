@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.infosys.dto.CustomerDTO;
+import com.infosys.exceptions.NoSuchCustomerException;
 import com.infosys.service.CustomerService;
 
 @RestController
@@ -56,13 +57,13 @@ public class CustomerController {
 	
 	// update an existing customer
 	@PutMapping(value = "/{phoneNumber}", consumes = "application/json")
-	public String updateCustomer(@PathVariable("phoneNumber") long phoneNumber, CustomerDTO customerDTO) {
+	public String updateCustomer(@PathVariable("phoneNumber") long phoneNumber, @RequestBody CustomerDTO customerDTO) {
 		return customerService.updateCustomer(phoneNumber, customerDTO);
 	}
 	
 	// Deleting the customer
 	@DeleteMapping("/{phoneNumber}")
-	public String deleteCustomer(@PathVariable("phoneNumber") long phoneNumber) {
+	public String deleteCustomer(@PathVariable("phoneNumber") long phoneNumber) throws NoSuchCustomerException {
 		return customerService.deleteCustomer(phoneNumber);
 	}
 }

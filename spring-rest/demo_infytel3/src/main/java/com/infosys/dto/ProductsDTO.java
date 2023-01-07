@@ -2,6 +2,9 @@ package com.infosys.dto;
 
 import java.math.BigInteger;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class ProductsDTO {
 	
 	private BigInteger productCode;

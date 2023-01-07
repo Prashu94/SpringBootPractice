@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 import com.infosys.dto.CustomerDTO;
 import com.infosys.dto.FriendFamilyDTO;
 import com.infosys.dto.PlanDTO;
+import com.infosys.exceptions.NoSuchCustomerException;
 
 @Repository
 public class CustomerRepository {
@@ -59,7 +60,24 @@ public class CustomerRepository {
 	}
 	
 	// deletes the passed customer from the list
-	public void deleteCustomer(CustomerDTO customer) {
+	/*public void deleteCustomer(CustomerDTO customer) {
 		customers.remove(customer);
+	}*/
+	public String deleteCustomer(long phoneNumber) throws NoSuchCustomerException
+	{   boolean notfound=true;
+		String response = "Customer of:"+phoneNumber+"\t does not exist";
+		for(CustomerDTO customer : customers)
+		{ 
+			if(customer.getPhoneNo() == phoneNumber)
+			{
+				customers.remove(customer);
+				response = customer.getName()+" with  phoneNumber "+customer.getPhoneNo()+" deleted successfully";
+				notfound=false;
+				break;
+			
+		}}
+			if(notfound)
+				throw new NoSuchCustomerException("Customer does not exist :"+phoneNumber);
+		return response;
 	}
 }
