@@ -2,16 +2,33 @@ package com.infosys.dto;
 
 import java.util.List;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+
 public class CustomerDTO {
 	
+	@NotNull(message = "{customer.phone.must}")
 	private long phoneNo;
+	@NotBlank(message="{customer.name.must}")
 	private String name;
+	@NotNull(message="{customer.email.must}")
+	@Email(message= "{customer.email.invalid}")
 	private String email;	
+	@Min(value=18, message = "{customer.age.invalid}")
+	@Max(value=60, message = "{customer.age.invalid}")
 	private int age;
 	private char gender;
+	@NotEmpty(message = "{customer.password.must}")
+	@Pattern(regexp="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\\S+$).{5,}$",message= "{customer.password.invalid}")
 	private String password;
 	private String address;
 	private List<FriendFamilyDTO> friendAndFamily;
+	@NotNull(message="{customer.plan.must}")
 	private PlanDTO currentPlan;
 	public long getPhoneNo() {
 		return phoneNo;

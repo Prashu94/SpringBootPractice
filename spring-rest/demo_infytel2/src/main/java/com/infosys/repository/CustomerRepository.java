@@ -63,7 +63,8 @@ public class CustomerRepository {
 	/*public void deleteCustomer(CustomerDTO customer) {
 		customers.remove(customer);
 	}*/
-	public String deleteCustomer(long phoneNumber) throws NoSuchCustomerException
+	// Commenting for New delete method
+	/*public String deleteCustomer(long phoneNumber) throws NoSuchCustomerException
 	{   boolean notfound=true;
 		String response = "Customer of:"+phoneNumber+"\t does not exist";
 		for(CustomerDTO customer : customers)
@@ -79,5 +80,38 @@ public class CustomerRepository {
 			if(notfound)
 				throw new NoSuchCustomerException("Customer does not exist :"+phoneNumber);
 		return response;
+	}*/
+	// deletes customer - exception handling incorporated
+	public boolean deleteCustomer(long phoneNumber) {
+		boolean responseDelete = false;
+		for(CustomerDTO customer: customers) {
+			if(customer.getPhoneNo() == phoneNumber) {
+				customers.remove(customer);
+				responseDelete = true;
+				break;
+			}
+		}
+		return responseDelete;
 	}
+	
+	// finds the customer based on phoneNumber and updates the details of the same
+	public boolean updateCustomer(long phoneNumber, CustomerDTO customerDTO) {
+		boolean responseUpdate = false;
+		
+		for(CustomerDTO customer: customers) {
+			if(customer.getPhoneNo() == phoneNumber) {
+				if(customer.getAddress()!=null) {
+					customer.setAddress(customerDTO.getAddress());
+				}
+				if(customer.getEmail()!=null) {
+					customer.setEmail(customerDTO.getEmail());
+				}
+				responseUpdate = true;
+				break;
+			}
+		}
+		
+		return responseUpdate;
+	}
+	
 }

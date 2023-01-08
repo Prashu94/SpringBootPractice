@@ -4,13 +4,17 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 import com.infosys.dto.CustomerDTO;
 import com.infosys.exceptions.NoSuchCustomerException;
 import com.infosys.repository.CustomerRepository;
+import com.infosys.util.InfyTelConstants;
 
 @Service
+@PropertySource("classpath:ValidationMessages.properties")
 public class CustomerService {
 	
 	/**
@@ -18,6 +22,9 @@ public class CustomerService {
 	 */
 	@Autowired
 	private CustomerRepository customerRepository;
+	
+	@Autowired
+	private Environment environment;
 	
 	// makes a call to repository method for adding the customer
 	public String createCustomer(CustomerDTO customerDTO) {
@@ -79,8 +86,23 @@ public class CustomerService {
 	}*/
 	
 	//Contacts repository layer to delete customer
-	public String deleteCustomer(long phoneNumber)throws NoSuchCustomerException
+	/*public String deleteCustomer(long phoneNumber)throws NoSuchCustomerException
 	{
 		return customerRepository.deleteCustomer(phoneNumber);
+	}*/
+	
+	public String deleteCustomer(long phoneNumber) throws NoSuchCustomerException{
+		boolean response = customerRepository.deleteCustomer(phoneNumber);
+		if(!response) {
+			throw new NoSuchCustomerException(environment.getProperty(InfyTelConstants.CUSTOMER_NOT_FOUND.toString()));
+		}
+		return environment.getProperty(InfyTelConstants.CUSTOMER_DELETE_SUCCESS.toString());
+	}
+	
+	public String updateCustomer_1(long phoneNumber, CustomerDTO customerDTO) throws NoSuchCustomerException{
+		boolean response = customerRepository.updateCustomer(phoneNumber,customerDTO);
+		if(!response)
+			throw new NoSuchCustomerException(environment.getProperty(InfyTelConstants.CUSTOMER_NOT_FOUND.toString()));
+		return environment.getProperty(InfyTelConstants.CUSTOMER_UPDATE_SUCCESS.toString());
 	}
 }
