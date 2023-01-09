@@ -10,5 +10,9 @@
   <name>Spring REST Examples</name>
   <modules>
   	<module>demo_infytel1</module>
+  	<module>demo_infytel2</module>
+  	<module>demo_infytel3</module>
+  	<module>demo_infytel_rest_client</module>
+  	<module>demo_infytel_rest_client_a</module>
   </modules>
 </project>
